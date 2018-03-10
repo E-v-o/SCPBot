@@ -1,3 +1,5 @@
 # SCPBot
 
-Blah
+This is a Repo for Evo's SCP bot
+
+No touchy!
