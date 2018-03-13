@@ -1,1 +1,797 @@
-[null,{"name":"start","permissions":"MANAGE_NICKNAMES","restriction":"1","_id":"NbqyE","actions":[{"info":"0","infoIndex":"1","storage":"1","varName":"startserv","name":"Store Command Params"},{"behavior":"0","interpretation":"0","code":"var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\Start Server 1.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});","storage":"1","varName":"scpserverstart","name":"Run Script"},{"time":"10","measurement":"1","name":"Wait"},{"behavior":"0","interpretation":"0","code":"var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\Start Server 1.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});","storage":"1","varName":"scpserverstart","name":"Run Script"},{"time":"10","measurement":"1","name":"Wait"},{"behavior":"0","interpretation":"0","code":"var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\Start Server 3.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});","storage":"1","varName":"scpserverstart","name":"Run Script"},{"time":"10","measurement":"1","name":"Wait"},{"behavior":"0","interpretation":"0","code":"var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\Start Server 4.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});","storage":"1","varName":"scpserverstart","name":"Run Script"},{"time":"10","measurement":"1","name":"Wait"},{"behavior":"0","interpretation":"0","code":"var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\Start Server 5.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});","storage":"1","varName":"scpserverstart","name":"Run Script"},{"time":"750","measurement":"0","name":"Wait"},{"channel":"0","varName":"","message":"O5-███ has issued a Start!\n\nServer is now Starting.\n\n              |","storage":"1","varName2":"editme","name":"Send Message"},{"time":"750","measurement":"0","name":"Wait"},{"storage":"1","varName":"editme","message":"O5-███ has issued a Start!\n\nServer is now Starting.\n\n              /","name":"Edit Message"},{"time":"750","measurement":"0","name":"Wait"},{"storage":"1","varName":"editme","message":"O5-███ has issued a Start!\n\nServer is now Starting.\n\n              -","name":"Edit Message"},{"time":"750","measurement":"0","name":"Wait"},{"storage":"1","varName":"editme","message":"O5-███ has issued a Start!\n\nServer is now Starting.\n\n              |","name":"Edit Message"},{"time":"750","measurement":"0","name":"Wait"},{"storage":"1","varName":"editme","message":"O5-███ has issued a Start!\n\nServer is now Starting.\n\n              /","name":"Edit Message"},{"time":"750","measurement":"0","name":"Wait"},{"storage":"1","varName":"editme","message":"O5-███ has issued a Start!\n\nServer is now Starting.\n\n              -","name":"Edit Message"},{"time":"750","measurement":"0","name":"Wait"},{"storage":"1","varName":"editme","message":"Server(s) should now be Starting!","name":"Edit Message"}]},{"name":"endall","permissions":"MANAGE_NICKNAMES","restriction":"1","_id":"nfRIJ","actions":[{"info":"0","infoIndex":"1","storage":"1","varName":"endserv","name":"Store Command Params"},{"behavior":"0","interpretation":"0","code":"var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\EndAll.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});","storage":"1","varName":"multikill","name":"Run Script"},{"channel":"0","varName":"","message":"ALL SERVER KILL PROCEDURE COMPLETED, LOGGING AUTHORIZED USER OUT","storage":"1","varName2":"logout","name":"Send Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"logout","message":"ALL SERVER KILL PROCEDURE COMPLETED, LOGGING AUTHORIZED USER OUT.","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"logout","message":"ALL SERVER KILL PROCEDURE COMPLETED, LOGGING AUTHORIZED USER OUT..","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"logout","message":"ALL SERVER KILL PROCEDURE COMPLETED, LOGGING AUTHORIZED USER OUT...","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"logout","message":"LOGGING AUTHORIZED USER OUT /","name":"Edit Message"},{"time":"650","measurement":"0","name":"Wait"},{"storage":"1","varName":"logout","message":"LOGGING AUTHORIZED USER OUT \\","name":"Edit Message"},{"time":"650","measurement":"0","name":"Wait"},{"storage":"1","varName":"logout","message":"LOGGING AUTHORIZED USER OUT /","name":"Edit Message"},{"time":"650","measurement":"0","name":"Wait"},{"storage":"1","varName":"logout","message":"LOGGING AUTHORIZED USER OUT \\","name":"Edit Message"},{"time":"650","measurement":"0","name":"Wait"},{"storage":"1","varName":"logout","message":"LOGGING AUTHORIZED USER OUT - SUCCESS","name":"Edit Message"}]},{"name":"end1","permissions":"MANAGE_NICKNAMES","restriction":"1","_id":"ykgrA","actions":[{"info":"0","infoIndex":"1","storage":"1","varName":"end1param","name":"Store Command Params"},{"behavior":"0","interpretation":"0","code":"var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\Stop Server 1.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});","storage":"0","varName":"","name":"Run Script"},{"channel":"0","varName":"","message":"O5-███ has requested a SERV-1 Shutdown","storage":"1","varName2":"editme2","name":"Send Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down.","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down..","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down...","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutdown Complete","name":"Edit Message"}]},{"name":"end2","permissions":"MANAGE_NICKNAMES","restriction":"1","_id":"ykgrA","actions":[{"info":"0","infoIndex":"1","storage":"1","varName":"end1param","name":"Store Command Params"},{"behavior":"0","interpretation":"0","code":"var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\Stop Server 2.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});","storage":"0","varName":"","name":"Run Script"},{"channel":"0","varName":"","message":"O5-███ has requested a SERV-1 Shutdown","storage":"1","varName2":"editme2","name":"Send Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down.","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down..","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down...","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutdown Complete","name":"Edit Message"}]},{"name":"end3","permissions":"MANAGE_NICKNAMES","restriction":"1","_id":"ykgrA","actions":[{"info":"0","infoIndex":"1","storage":"1","varName":"end1param","name":"Store Command Params"},{"behavior":"0","interpretation":"0","code":"var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\Stop Server 3.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});","storage":"0","varName":"","name":"Run Script"},{"channel":"0","varName":"","message":"O5-███ has requested a SERV-1 Shutdown","storage":"1","varName2":"editme2","name":"Send Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down.","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down..","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down...","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutdown Complete","name":"Edit Message"}]},{"name":"end4","permissions":"MANAGE_NICKNAMES","restriction":"1","_id":"ykgrA","actions":[{"info":"0","infoIndex":"1","storage":"1","varName":"end1param","name":"Store Command Params"},{"behavior":"0","interpretation":"0","code":"var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\Stop Server 4.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});","storage":"0","varName":"","name":"Run Script"},{"channel":"0","varName":"","message":"O5-███ has requested a SERV-1 Shutdown","storage":"1","varName2":"editme2","name":"Send Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down.","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down..","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down...","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutdown Complete","name":"Edit Message"}]},{"name":"end5","permissions":"MANAGE_NICKNAMES","restriction":"1","_id":"ykgrA","actions":[{"info":"0","infoIndex":"1","storage":"1","varName":"end1param","name":"Store Command Params"},{"behavior":"0","interpretation":"0","code":"var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\Stop Server 5.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});","storage":"0","varName":"","name":"Run Script"},{"channel":"0","varName":"","message":"O5-███ has requested a SERV-1 Shutdown","storage":"1","varName2":"editme2","name":"Send Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down.","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down..","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down...","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme2","message":"O5-███ has requested a SERV-1 Shutdown\n\n                    Shutdown Complete","name":"Edit Message"}]},{"name":"who","permissions":"NONE","restriction":"1","_id":"fseXa","actions":[{"member":"0","varName":"","info":"1","storage":"1","varName2":"memid","name":"Store Member Info"},{"info":"0","find":"130760765291364352","storage":"1","varName":"knoxid","name":"Find Member"},{"channel":"0","varName":"","message":"I was made by ${tempVars(\"knoxid\")} \n\nI am only used by the O5 Council to Start and Stop the servers.\n\nNothing else!\n\n(API Implementations coming in the near future.)","storage":"0","varName2":"","name":"Send Message"}]},{"name":"help","permissions":"MANAGE_NICKNAMES","restriction":"1","_id":"imZao","actions":[{"channel":"0","varName":"","message":"Hello, ${member}\n\nOf course, this command is only accessible by admins and should only be used by admins.\n\nIf you used this command in a public channel, please DELETE this message and use it in a admin chat.","storage":"1","varName2":"editme","name":"Send Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme","message":"Hello, ${member}\n\nOf course, this command is only accessible by admins and should only be used by admins.\n\nIf you used this command in a public channel, please DELETE this message and use it in a admin chat.\n\nEditing in... 3","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme","message":"Hello, ${member}\n\nOf course, this command is only accessible by admins and should only be used by admins.\n\nIf you used this command in a public channel, please DELETE this message and use it in a admin chat.\n\nEditing in... 2","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme","message":"Hello, ${member}\n\nOf course, this command is only accessible by admins and should only be used by admins.\n\nIf you used this command in a public channel, please DELETE this message and use it in a admin chat.\n\nEditing in... 1","name":"Edit Message"},{"time":"1","measurement":"1","name":"Wait"},{"storage":"1","varName":"editme","message":"Hello, ${member}\n\nIf you're able to use this command, it means you're authorized to use the following commands.\n\nThe prefix for the bot is `.`\n\n.start - Will start all the servers, 1 through 5 with 10 second intervals between all 5.\n.endall - WIll kill all the server, 1 through 5.\n.end1 - Will kill server 1.\n.end2 - Will kill server 2.\n.end3 - Will kill server 3.\n.end4 - Will kill server 4.\n.end5 - Will kill server 5.\n.who - Displays who made me.\n.help Displays this message.","name":"Edit Message"}]}]
+[
+  null,
+  {
+    "name": "start",
+    "permissions": "MANAGE_NICKNAMES",
+    "restriction": "1",
+    "_id": "NbqyE",
+    "actions": [
+      {
+        "info": "0",
+        "infoIndex": "1",
+        "storage": "1",
+        "varName": "startserv",
+        "name": "Store Command Params"
+      },
+      {
+        "behavior": "0",
+        "interpretation": "0",
+        "code": "var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\Start Server 1.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});",
+        "storage": "1",
+        "varName": "scpserverstart",
+        "name": "Run Script"
+      },
+      {
+        "time": "10",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "behavior": "0",
+        "interpretation": "0",
+        "code": "var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\Start Server 1.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});",
+        "storage": "1",
+        "varName": "scpserverstart",
+        "name": "Run Script"
+      },
+      {
+        "time": "10",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "behavior": "0",
+        "interpretation": "0",
+        "code": "var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\Start Server 3.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});",
+        "storage": "1",
+        "varName": "scpserverstart",
+        "name": "Run Script"
+      },
+      {
+        "time": "10",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "behavior": "0",
+        "interpretation": "0",
+        "code": "var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\Start Server 4.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});",
+        "storage": "1",
+        "varName": "scpserverstart",
+        "name": "Run Script"
+      },
+      {
+        "time": "10",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "behavior": "0",
+        "interpretation": "0",
+        "code": "var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\Start Server 5.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});",
+        "storage": "1",
+        "varName": "scpserverstart",
+        "name": "Run Script"
+      },
+      {
+        "time": "750",
+        "measurement": "0",
+        "name": "Wait"
+      },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "O5-███ has issued a Start!\n\nServer is now Starting.\n\n              |",
+        "storage": "1",
+        "varName2": "editme",
+        "name": "Send Message"
+      },
+      {
+        "time": "750",
+        "measurement": "0",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme",
+        "message": "O5-███ has issued a Start!\n\nServer is now Starting.\n\n              /",
+        "name": "Edit Message"
+      },
+      {
+        "time": "750",
+        "measurement": "0",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme",
+        "message": "O5-███ has issued a Start!\n\nServer is now Starting.\n\n              -",
+        "name": "Edit Message"
+      },
+      {
+        "time": "750",
+        "measurement": "0",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme",
+        "message": "O5-███ has issued a Start!\n\nServer is now Starting.\n\n              |",
+        "name": "Edit Message"
+      },
+      {
+        "time": "750",
+        "measurement": "0",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme",
+        "message": "O5-███ has issued a Start!\n\nServer is now Starting.\n\n              /",
+        "name": "Edit Message"
+      },
+      {
+        "time": "750",
+        "measurement": "0",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme",
+        "message": "O5-███ has issued a Start!\n\nServer is now Starting.\n\n              -",
+        "name": "Edit Message"
+      },
+      {
+        "time": "750",
+        "measurement": "0",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme",
+        "message": "Server(s) should now be Starting!",
+        "name": "Edit Message"
+      }
+    ]
+  },
+  {
+    "name": "endall",
+    "permissions": "MANAGE_NICKNAMES",
+    "restriction": "1",
+    "_id": "nfRIJ",
+    "actions": [
+      {
+        "info": "0",
+        "infoIndex": "1",
+        "storage": "1",
+        "varName": "endserv",
+        "name": "Store Command Params"
+      },
+      {
+        "behavior": "0",
+        "interpretation": "0",
+        "code": "var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\EndAll.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});",
+        "storage": "1",
+        "varName": "multikill",
+        "name": "Run Script"
+      },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "ALL SERVER KILL PROCEDURE COMPLETED, LOGGING AUTHORIZED USER OUT",
+        "storage": "1",
+        "varName2": "logout",
+        "name": "Send Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "logout",
+        "message": "ALL SERVER KILL PROCEDURE COMPLETED, LOGGING AUTHORIZED USER OUT.",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "logout",
+        "message": "ALL SERVER KILL PROCEDURE COMPLETED, LOGGING AUTHORIZED USER OUT..",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "logout",
+        "message": "ALL SERVER KILL PROCEDURE COMPLETED, LOGGING AUTHORIZED USER OUT...",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "logout",
+        "message": "LOGGING AUTHORIZED USER OUT /",
+        "name": "Edit Message"
+      },
+      {
+        "time": "650",
+        "measurement": "0",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "logout",
+        "message": "LOGGING AUTHORIZED USER OUT \\",
+        "name": "Edit Message"
+      },
+      {
+        "time": "650",
+        "measurement": "0",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "logout",
+        "message": "LOGGING AUTHORIZED USER OUT /",
+        "name": "Edit Message"
+      },
+      {
+        "time": "650",
+        "measurement": "0",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "logout",
+        "message": "LOGGING AUTHORIZED USER OUT \\",
+        "name": "Edit Message"
+      },
+      {
+        "time": "650",
+        "measurement": "0",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "logout",
+        "message": "LOGGING AUTHORIZED USER OUT - SUCCESS",
+        "name": "Edit Message"
+      }
+    ]
+  },
+  {
+    "name": "end1",
+    "permissions": "MANAGE_NICKNAMES",
+    "restriction": "1",
+    "_id": "ykgrA",
+    "actions": [
+      {
+        "info": "0",
+        "infoIndex": "1",
+        "storage": "1",
+        "varName": "end1param",
+        "name": "Store Command Params"
+      },
+      {
+        "behavior": "0",
+        "interpretation": "0",
+        "code": "var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\Stop Server 1.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});",
+        "storage": "0",
+        "varName": "",
+        "name": "Run Script"
+      },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "O5-███ has requested a SERV-1 Shutdown",
+        "storage": "1",
+        "varName2": "editme2",
+        "name": "Send Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down.",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down..",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down...",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutdown Complete",
+        "name": "Edit Message"
+      }
+    ]
+  },
+  {
+    "name": "end2",
+    "permissions": "MANAGE_NICKNAMES",
+    "restriction": "1",
+    "_id": "ykgrA",
+    "actions": [
+      {
+        "info": "0",
+        "infoIndex": "1",
+        "storage": "1",
+        "varName": "end1param",
+        "name": "Store Command Params"
+      },
+      {
+        "behavior": "0",
+        "interpretation": "0",
+        "code": "var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\Stop Server 2.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});",
+        "storage": "0",
+        "varName": "",
+        "name": "Run Script"
+      },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "O5-███ has requested a SERV-1 Shutdown",
+        "storage": "1",
+        "varName2": "editme2",
+        "name": "Send Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down.",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down..",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down...",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutdown Complete",
+        "name": "Edit Message"
+      }
+    ]
+  },
+  {
+    "name": "end3",
+    "permissions": "MANAGE_NICKNAMES",
+    "restriction": "1",
+    "_id": "ykgrA",
+    "actions": [
+      {
+        "info": "0",
+        "infoIndex": "1",
+        "storage": "1",
+        "varName": "end1param",
+        "name": "Store Command Params"
+      },
+      {
+        "behavior": "0",
+        "interpretation": "0",
+        "code": "var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\Stop Server 3.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});",
+        "storage": "0",
+        "varName": "",
+        "name": "Run Script"
+      },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "O5-███ has requested a SERV-1 Shutdown",
+        "storage": "1",
+        "varName2": "editme2",
+        "name": "Send Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down.",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down..",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down...",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutdown Complete",
+        "name": "Edit Message"
+      }
+    ]
+  },
+  {
+    "name": "end4",
+    "permissions": "MANAGE_NICKNAMES",
+    "restriction": "1",
+    "_id": "ykgrA",
+    "actions": [
+      {
+        "info": "0",
+        "infoIndex": "1",
+        "storage": "1",
+        "varName": "end1param",
+        "name": "Store Command Params"
+      },
+      {
+        "behavior": "0",
+        "interpretation": "0",
+        "code": "var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\Stop Server 4.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});",
+        "storage": "0",
+        "varName": "",
+        "name": "Run Script"
+      },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "O5-███ has requested a SERV-1 Shutdown",
+        "storage": "1",
+        "varName2": "editme2",
+        "name": "Send Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down.",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down..",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down...",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutdown Complete",
+        "name": "Edit Message"
+      }
+    ]
+  },
+  {
+    "name": "end5",
+    "permissions": "MANAGE_NICKNAMES",
+    "restriction": "1",
+    "_id": "ykgrA",
+    "actions": [
+      {
+        "info": "0",
+        "infoIndex": "1",
+        "storage": "1",
+        "varName": "end1param",
+        "name": "Store Command Params"
+      },
+      {
+        "behavior": "0",
+        "interpretation": "0",
+        "code": "var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\Stop Server 5.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});",
+        "storage": "0",
+        "varName": "",
+        "name": "Run Script"
+      },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "O5-███ has requested a SERV-1 Shutdown",
+        "storage": "1",
+        "varName2": "editme2",
+        "name": "Send Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down.",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down..",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutting Down...",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested a SERV-1 Shutdown\n\n                    Shutdown Complete",
+        "name": "Edit Message"
+      }
+    ]
+  },
+  {
+    "name": "who",
+    "permissions": "NONE",
+    "restriction": "1",
+    "_id": "fseXa",
+    "actions": [
+      {
+        "member": "0",
+        "varName": "",
+        "info": "1",
+        "storage": "1",
+        "varName2": "memid",
+        "name": "Store Member Info"
+      },
+      {
+        "info": "0",
+        "find": "130760765291364352",
+        "storage": "1",
+        "varName": "knoxid",
+        "name": "Find Member"
+      },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "I was made by ${tempVars(\"knoxid\")} \n\nI am only used by the O5 Council to Start and Stop the servers.\n\nNothing else!\n\n(API Implementations coming in the near future.)",
+        "storage": "0",
+        "varName2": "",
+        "name": "Send Message"
+      }
+    ]
+  },
+  {
+    "name": "help",
+    "permissions": "MANAGE_NICKNAMES",
+    "restriction": "1",
+    "_id": "imZao",
+    "actions": [
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "Hello, ${member}\n\nOf course, this command is only accessible by admins and should only be used by admins.\n\nIf you used this command in a public channel, please DELETE this message and use it in a admin chat.",
+        "storage": "1",
+        "varName2": "editme",
+        "name": "Send Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme",
+        "message": "Hello, ${member}\n\nOf course, this command is only accessible by admins and should only be used by admins.\n\nIf you used this command in a public channel, please DELETE this message and use it in a admin chat.\n\nEditing in... 3",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme",
+        "message": "Hello, ${member}\n\nOf course, this command is only accessible by admins and should only be used by admins.\n\nIf you used this command in a public channel, please DELETE this message and use it in a admin chat.\n\nEditing in... 2",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme",
+        "message": "Hello, ${member}\n\nOf course, this command is only accessible by admins and should only be used by admins.\n\nIf you used this command in a public channel, please DELETE this message and use it in a admin chat.\n\nEditing in... 1",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme",
+        "message": "Hello, ${member}\n\nIf you're able to use this command, it means you're authorized to use the following commands.\n\nThe prefix for the bot is `.`\n\n.start - Will start all the servers, 1 through 5 with 10 second intervals between all 5.\n.endall - WIll kill all the server, 1 through 5.\n.end1 - Will kill server 1.\n.end2 - Will kill server 2.\n.end3 - Will kill server 3.\n.end4 - Will kill server 4.\n.end5 - Will kill server 5.\n.who - Displays who made me.\n.help Displays this message.",
+        "name": "Edit Message"
+      }
+    ]
+  }
+]
