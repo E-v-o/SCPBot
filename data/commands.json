@@ -823,6 +823,92 @@
     ]
   },
   {
+    "name": "nukes1",
+    "permissions": "MANAGE_NICKNAMES",
+    "restriction": "1",
+    "_id": "ykgrA",
+    "actions": [
+      {
+        "info": "0",
+        "infoIndex": "1",
+        "storage": "1",
+        "varName": "end1param",
+        "name": "Store Command Params"
+      },
+      {
+        "behavior": "0",
+        "interpretation": "0",
+        "code": "var child = require('child_process').execFile;\nvar executablePath = \"C:\\\\SCP Discord Bot\\\\Test\\\\CommandScripts\\\\NukeS1.bat\";\n\nglobal.serverProcess = child(executablePath, {maxBuffer: 1024 * 500}, function(err, data) {\n    if(err){\n       console.error(err);\n       return;\n    }\n \n    console.log(data.toString());\n});",
+        "storage": "0",
+        "varName": "",
+        "name": "Run Script"
+      },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "O5-███ has requested to NUKE Server 1",
+        "storage": "1",
+        "varName2": "editme2",
+        "name": "Send Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested to NUKE Server 1\n\n                    Attempting to arm the warhead!",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested to NUKE Server 1\n\n                    Attempting to arm the warhead!",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested to NUKE Server 1\n\n                    Attempting to arm the warhead!",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested to NUKE Server 1\n\n                    Attempting to arm the warhead!",
+        "name": "Edit Message"
+      },
+      {
+        "time": "1",
+        "measurement": "1",
+        "name": "Wait"
+      },
+      {
+        "storage": "1",
+        "varName": "editme2",
+        "message": "O5-███ has requested to NUKE Server 1\n\n                    Nuke Detonation In Progress",
+        "name": "Edit Message"
+      }
+    ]
+  },
+  {
     "name": "who",
     "permissions": "NONE",
     "restriction": "1",
